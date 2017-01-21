@@ -1,3 +1,5 @@
+Those are exercises from [exercism.io](http://exercism.io)
+
 # Install rust
 The easiest way to install Rust is via `rustup`
 `curl https://sh.rustup.rs -sSf | sh`
