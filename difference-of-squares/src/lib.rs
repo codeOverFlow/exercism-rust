@@ -3,7 +3,7 @@ pub fn square_of_sum(n: usize) -> u64 {
 }
 
 pub fn sum_of_squares(n: usize) -> u64 {
-    (1..).take(n).map(|x| u64::pow(x,2)).sum()
+    (1..).take(n).fold(0, |acc, x| acc + x*x)
 }
 
 pub fn difference(n: usize) -> u64 {
